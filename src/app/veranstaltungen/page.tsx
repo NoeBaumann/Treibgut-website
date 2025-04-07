@@ -21,7 +21,7 @@ export default function VeranstaltungenPage() {
     }, 2000);
     
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <div className="bg-treibgut-lightblue py-12">
