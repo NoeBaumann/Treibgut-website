@@ -1,7 +1,22 @@
+interface Job {
+  id: string;
+  title: string;
+  type: string;
+  description: string;
+  requirements: string[];
+}
+
 export default function JobsPage() {
   // This would normally come from the database
-  const jobs = [
-    
+  const jobs: Job[] = [
+    // Example job if needed:
+    {
+      id: "1",
+      title: "Servicekraft",
+      type: "Vollzeit",
+      description: "Wir suchen eine freundliche Servicekraft zur Verstärkung unseres Teams.",
+      requirements: ["Erfahrung im Service", "Teamfähigkeit", "Deutschkenntnisse"]
+    }
   ];
 
   return (

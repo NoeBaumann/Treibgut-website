@@ -1,47 +1,8 @@
 "use client";
 
-import { useState } from 'react';
-import Image from "next/image";
 import Link from "next/link";
 
 export default function KontaktPage() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-    isReservation: false,
-    date: '',
-    time: '',
-    partySize: '',
-  });
-
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: type === 'checkbox' ? checked : value
-    }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    // In a real application, this would send the data to the server
-    console.log('Form submitted:', formData);
-    // Reset form after submission
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
-      isReservation: false,
-      date: '',
-      time: '',
-      partySize: '',
-    });
-    alert('Vielen Dank für Ihre Nachricht! Wir werden uns in Kürze bei Ihnen melden.');
-  };
-
   return (
     <div className="bg-treibgut-lightblue py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

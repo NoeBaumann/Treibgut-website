@@ -92,7 +92,7 @@ export default function MenuPage() {
             
             <div className="flex justify-between">
               <div>
-                <span className="font-medium">Roastbeef rosa mit Holsteiner Färse mit Trüffel Remoulade und Ragnar's Küchenbrot</span>
+                <span className="font-medium">Roastbeef rosa mit Holsteiner Färse mit Trüffel Remoulade und Ragnar&apos;s Küchenbrot</span>
               </div>
               <div className="text-right">
                 <span className="font-semibold">18,90€</span>
@@ -123,7 +123,7 @@ export default function MenuPage() {
           <div className="space-y-3 mb-8">
             <div className="flex justify-between">
               <div>
-                <span className="font-medium">Büffelmilchkäse "Burrata" auf Süßkartoffelrösti Pesto, Salbei und Pinienkernen</span>
+                <span className="font-medium">Büffelmilchkäse &quot;Burrata&quot; auf Süßkartoffelrösti Pesto, Salbei und Pinienkernen</span>
               </div>
               <div className="text-right">
                 <span className="font-semibold">23,00€</span>
@@ -151,7 +151,7 @@ export default function MenuPage() {
             
             <div className="flex justify-between">
               <div>
-                <span className="font-medium">Gratinierte Küsten&Avocado</span> <span className="text-sm">"Feuer und Knusper"</span><br />
+                <span className="font-medium">Gratinierte Küsten&Avocado</span> <span className="text-sm">&quot;Feuer und Knusper&quot;</span><br />
                 <span className="text-sm">mit pikanter Tomaten Salsa, Beilagensalat, und knusprigen Nachos</span>
               </div>
               <div className="text-right">
@@ -245,7 +245,7 @@ export default function MenuPage() {
                 
                 <div>
                   <span className="font-medium">Strandspaziergang</span><br />
-                  <span className="text-sm">Dessertvariation "Im Wechsel der Jahreszeiten"</span>
+                  <span className="text-sm">Dessertvariation &quot;Im Wechsel der Jahreszeiten&quot;</span>
                   <div className="text-right">
                     <span className="font-semibold">14,20€</span>
                   </div>
@@ -456,7 +456,7 @@ export default function MenuPage() {
             </div>
             <div className="flex justify-between">
               <div>
-                <span className="font-medium">Maisel's Weisse Hefeweizen</span>
+                <span className="font-medium">Maisel&apos;s Weisse Hefeweizen</span>
                 <span className="text-sm ml-2">0,5l</span>
               </div>
               <div className="text-right">
@@ -629,7 +629,7 @@ export default function MenuPage() {
             <div className="space-y-2">
             <div className="flex justify-between">
               <div>
-                <span className="font-medium">"L Mio" Merlot</span>
+                <span className="font-medium">&quot;IL Mio&quot; Merlot</span>
                 <span className="text-sm ml-2">0,2l</span>
                 <div className="text-xs">Cehegin IGP, Sp.</div>
               </div>
@@ -677,7 +677,7 @@ export default function MenuPage() {
             </div>
             <div className="flex justify-between">
               <div>
-                <span className="font-medium">Grauer Burgunder "straight" tr</span>
+                <span className="font-medium">Grauer Burgunder &quot;straight&quot; tr</span>
                 <span className="text-sm ml-2">0,75l</span>
                 <div className="text-xs">Füsil Rüdel, Pfalz</div>
               </div>
@@ -715,7 +715,7 @@ export default function MenuPage() {
             </div>
             <div className="flex justify-between">
               <div>
-                <span className="font-medium">Rosé "Pudelwohl"</span>
+                <span className="font-medium">Rosé &quot;Pudelwohl&quot;</span>
                 <span className="text-sm ml-2">0,75l</span>
                 <div className="text-xs">Pfaffmann, Pfalz, Rheinhessen</div>
               </div>

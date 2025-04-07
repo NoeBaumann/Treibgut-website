@@ -105,7 +105,7 @@ export default function GastgeberPage() {
             
             <div className="md:w-2/3">
               <h3 className="text-xl font-semibold text-treibgut-blue mb-2">Steckbrief</h3>
-              <p><span className="text-treibgut-blue">Name:</span> "Unser Power Trio"</p>
+              <p><span className="text-treibgut-blue">Name:</span> &quot;Unser Power Trio&quot;</p>
               <p className="ml-4">von rechts nach links</p>
               <p className="ml-4">Elfie, Peppermint und Diego</p>
               <p>

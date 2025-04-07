@@ -30,7 +30,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollPos]);
 
-  const isActive = (path) => {
+  const isActive = (path: string) => {
     return pathname === path;
   };
 

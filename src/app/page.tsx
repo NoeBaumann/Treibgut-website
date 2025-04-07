@@ -68,7 +68,7 @@ export default function Home() {
           <p className="text-treibgut-text mb-6">
           Unser Restaurant mit 45 Plätzen besticht durch eine helle Leichtigkeit. 
           Der maritim gestaltete Gastraum schafft eine frisch-freundliche Atmosphäre und verbindet das Traditionelle wunderbar mit der Moderne. 
-          Die vielen, gemütlichen Sitzecken und der schöne Blick auf die Eckernförder Bucht sind perfekt um sich einfach mal <span className="text-treibgut-blue italic font-light">"treiben zu lassen"</span>.
+          Die vielen, gemütlichen Sitzecken und der schöne Blick auf die Eckernförder Bucht sind perfekt um sich einfach mal <span className="text-treibgut-blue italic font-light">&quot;treiben zu lassen&quot;</span>.
           </p>
         </div>
       </section>
