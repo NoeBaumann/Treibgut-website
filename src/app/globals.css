@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: #D1F1FD;
+  --foreground: #6D5F5B;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #D1F1FD;
+    --foreground: #000000;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.treibgut-gradient {
+  background: linear-gradient(to right, #6D5F5B, #473B37);
+}
+
+.gold-accent {
+  color: #C3A343;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Add these at the bottom of your globals.css */
+.text-treibgut-blue { color: #4A87B9; }
+.text-treibgut-lightblue { color: #D1F1FD; }
+.text-treibgut-accent { color: #6ABED1; }
+.text-treibgut-sand { color: #F5EFE0; }
+.text-treibgut-wood { color: #C19A6B; }
+.text-treibgut-text { color: #333333; }
+.text-sea-blue { color: #6D5F5B; }
+.text-sea-blue-light { color: #8C7B76; }
+.text-sea-blue-dark { color: #473B37; }
+/* Add bg- versions too if needed */
+.bg-treibgut-blue { background-color: #4A87B9; }
+.bg-treibgut-lightblue { background-color: #D1F1FD; }
+/* etc. */
